@@ -49,7 +49,7 @@ img{
     margin: 30px 0;
 }
 .mg-left{
-    margin-left: 30px;
+    margin-left: 40px;
 }
 .mg-bottom{
     margin-bottom: 30px;
@@ -234,6 +234,62 @@ hr{
     margin-bottom: 40px;
     display: flex;
 }
+.row-final{
+    display: flex;
+    justify-content: space-between;    
+}
+.col-final{
+    width: 35%;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.square{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.img-final{
+    width: 150px; 
+    margin-left: 20%;
+    color: white;
+}
+.square-one{
+    background-color: hsl(112.5deg 38.89% 71.76%);
+    border: 15px solid hsl(111.43deg 38.89% 85.88%);
+}
+.square-two{
+    background-color: hsl(336.4deg 84.76% 20.59%);
+}
+.square-three{
+    background-color:hsl(197.18deg 100% 40.39%) ;
+}
+.square-four{
+    background-color: hsl(0deg 100% 55.49%);
+}
+.square-five{
+    background-color: hsl(351.27deg 100% 41.76%);
+}
+.square-six{
+    background-color:hsl(207.06deg 51.52% 80.59%);
+}
+.square-seven{
+    background-color:hsl(228.1deg 81.69% 27.84%);
+}
+.square-eight{
+    background-color:hsl(48.7deg 100% 59.41%);
+}
+.col-final-2{
+    width: 35%;
+    overflow: scroll;
+}
+.img-scroll{
+    width: 200px; 
+    margin-top: 50px; 
+    margin-left: 40px;
+}
+
 
 
  /* inizio footer */
