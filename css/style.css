@@ -21,6 +21,9 @@ img{
 
 
 /* Utilities */
+.violet{
+    color:hsl(336.4deg 84.76% 20.59%) ;
+}
 .sales{
     text-align: center; 
     margin: 0 20px; 
@@ -50,6 +53,9 @@ img{
 }
 .mg-left{
     margin-left: 40px;
+}
+.mg-left-2{
+    margin-left: 120px;
 }
 .mg-bottom{
     margin-bottom: 30px;
@@ -289,8 +295,12 @@ hr{
     margin-top: 50px; 
     margin-left: 40px;
 }
-
-
+.gratis{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+    
 
  /* inizio footer */
 .footer{
